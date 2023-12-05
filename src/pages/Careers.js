@@ -76,9 +76,9 @@ function BottomText() {
           justifyContent: 'flex-start', 
           alignItems: 'flex-start', 
           display: 'flex'}}>
-          <Link to = 'https://www.google.com/'>
+          <Link to = '/ContactUs'>
             <div style = {{
-              color: '#BB4D00', 
+              color:'#fbba72',  
               fontSize: 25, 
               fontWeight: '450', 
               textDecoration: 'underline', 
@@ -146,7 +146,7 @@ function DDOptions() {
         <DDItem label = {'Home'} to = '/Main' />
         <DDItem label = {'Online Order'} to = '/OnlineOrder' />
         <DDItem label = {'Directions'} to = '/Directions' />
-        <DDItem label = {'Menu'} to = 'https://www.google.com/' />
+        <DDItem label = {'Menu'} to = '/Menu' />
         <DDItem label = {'Contact'} to = '/ContactUs' />
     </div>
   );

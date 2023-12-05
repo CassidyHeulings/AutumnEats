@@ -97,9 +97,9 @@ const ContactUs = () => {
             </form>
             <div style={socialMediaStyle}>
                 {/* Replace with imported images or adjust paths */}
-                <img src="insta.png" alt="Instagram" width="50" height="50" />
-                <img src="facebook.png" alt="Facebook" width="50" height="50" />
-                <img src="whatsapp.png" alt="WhatsApp" width="50" height="50" />
+                <img src={instaIcon} alt="Instagram" width="50" height="50" />
+                <img src={facebookIcon} alt="Facebook" width="50" height="50" />
+                <img src={whatsappIcon} alt="WhatsApp" width="50" height="50" />
             </div>  
         </div>
         </div>

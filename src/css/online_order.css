@@ -11,7 +11,8 @@ h1 {
   padding-top: 10px;
 }
 
-.navbar {
+
+.navbarOO {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,36 +76,44 @@ button:focus {
 }
 
 .app {
-  width: 300px;
+  width: 350px;
   justify-content: center;
+  font-size: 18px;
 }
 
 .first {
   width: 300px;
+  font-size: 18px;
 }
 
 .main {
   width: 300px;
+  font-size: 18px;
 }
 
 .desserts {
   width: 300px;
+  font-size: 18px;
 }
 
 .menu {
-  width: 300px;
+  width: 400px;
   border: 3px solid black;
   border-radius: 5px;
   padding: 15px;
-  float: left;
-  margin-left: 25px;
-  margin-right: auto;
   margin-top: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
 }
 
 .title {
   text-decoration-line: underline;
   font-weight: bold;
+  font-size: 35px;
 }
 
 .summary {
@@ -117,12 +126,44 @@ button:focus {
   margin-top: 15px;
 }
 
-.img {
+.container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: block;
 }
 
-p {
-  text-align: center;
+.img {
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.img2 {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.popup-button {
+ width: 200px;
+ display: block;
+ margin: 0 auto;
+}
+
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 999;
+  box-shadow: 0 0 10px;
+  background-color: #691e06;
+  color: #FBBA72;
+  border-radius: 5px;
+}
+
+.menu_items {
+  font-size: 25px;
 }
