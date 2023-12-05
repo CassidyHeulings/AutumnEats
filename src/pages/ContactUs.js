@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 // Import images if they are locally stored
-// import instaIcon from './path-to-insta.png';
-// import facebookIcon from './path-to-face.png';
-// import whatsappIcon from './path-to-whatsapp.png';
-// import leavesImage from './path-to-leaves.png';
+import instaIcon from '../images/insta.png';
+import facebookIcon from '../images/facebook.png';
+import whatsappIcon from '../images/whatsapp.png';
+import leavesImage from '../images/leaves.png';
 
 const ContactUs = () => {
     const contactFormStyle = {
@@ -59,7 +59,7 @@ const ContactUs = () => {
                 gap: 20, display: 'inline-flex' }}>
                 <div className="AssetsStoreSwitcher" style = {{ 
                     width: 240, 
-                    height: 56, 
+                    height: 75, 
                     position: 'relative', 
                     background: '#691E06' }}>
                 <div className="Inner" style = {{ 
@@ -100,8 +100,7 @@ const ContactUs = () => {
                 <img src="insta.png" alt="Instagram" width="50" height="50" />
                 <img src="facebook.png" alt="Facebook" width="50" height="50" />
                 <img src="whatsapp.png" alt="WhatsApp" width="50" height="50" />
-            </div>
-            {/* <img src={leavesImage} alt="Decorative leaves" /> */}
+            </div>  
         </div>
         </div>
     );
