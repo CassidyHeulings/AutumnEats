@@ -44,8 +44,6 @@ const ContactUs = () => {
         marginTop: '20px',
     };
 
-    // Add other styles as needed
-
     return (
         <div>
         <div>

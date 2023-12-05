@@ -18,7 +18,7 @@ const Main = () => {
       <img className="leaves" src={leaf_pile} alt="leaf pile"/>
 
       <footer>
-      <p>&copy; 2023 Autumn Cafe. All rights reserved.</p>
+      <p>&copy; 2023 Autumn Eats. All rights reserved.</p>
       </footer>
     </div>
   );
