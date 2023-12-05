@@ -1,6 +1,6 @@
-import './css/OnlineOrder.css';
+import '../css/online_order.css';
 import React from 'react';
-import leaves from './images/leaves_spiral.png';
+import leaves from '../images/leaves_spiral.png';
 import { Link } from "react-router-dom";
 
 console.log(leaves);

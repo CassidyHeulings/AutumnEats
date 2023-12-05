@@ -1,5 +1,5 @@
 import React from 'react';
-import leaf from './images/leaves.png';
+import leaf from '../images/leaves.png';
 import { Link } from "react-router-dom"
  
 function Directions() {
@@ -7,12 +7,12 @@ function Directions() {
     
 <div>
   <div style={{ width: '100%', height: '100%', background: '#691E06', boxShadow: '0px 1px 0px rgba(26, 26, 26, 0.07)', justifyContent: 'flex-start', alignItems: 'center', gap: 20, display: 'inline-flex' }}>
-    <div style={{ width: '100%', height: 50, position: 'relative', background: '#691E06' }}>
+    <div style={{ width: '100%', height: 70, position: 'relative', background: '#691E06' }}>
       <div style={{ height: 30, paddingLeft: 8, paddingRight: 8, paddingTop: 4, paddingBottom: 4, left: 0, top: 6, position: 'absolute', background: '#691E06', borderRadius: 3, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex' }}>
         <div style={{ background: '#691E06', width: '70%', color: 'white', fontSize: 30, fontWeight: '650', wordWrap: 'break-word' }}>Autumn Eats</div>
         <div style={{ fontSize: 25, background: '#691E06', display: 'flex', alignItems: 'center', marginLeft: 'auto' }}>
           <Link to="/Main" style={{ background: '#691E06', color: 'white', marginLeft: '30px', border: 'none', textDecoration: 'none' }}>Home</Link>
-          <Link to="https://www.google.com" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Menu</Link>
+          <Link to="/Menu" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Menu</Link>
           <Link to="/Careers" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Careers</Link>
           <Link to="/ContactUs" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Ordering</Link>
         </div>
