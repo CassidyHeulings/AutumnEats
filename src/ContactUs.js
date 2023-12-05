@@ -1,5 +1,4 @@
 import React from 'react';
-import "./styles.css";
 import { Link } from "react-router-dom"
 // Import images if they are locally stored
 // import instaIcon from './path-to-insta.png';

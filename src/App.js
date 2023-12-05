@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Careers from "./Careers"
 import ContactUs from "./ContactUs"
 import Main from "./Main"
-import OnlineOrder from "./OnlineOrdering/OnlineOrder"
+import OnlineOrder from "./OnlineOrder"
 import Directions from "./Directions"
 
 export default function App() {
