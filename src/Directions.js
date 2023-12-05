@@ -1,5 +1,5 @@
 import React from 'react';
-import leaf from "./leaves.png";
+import leaf from './images/leaves.png';
 import { Link } from "react-router-dom"
 
 function Directions() {

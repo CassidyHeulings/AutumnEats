@@ -1,4 +1,3 @@
-import "./styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Careers from "./Careers"
 import ContactUs from "./ContactUs"

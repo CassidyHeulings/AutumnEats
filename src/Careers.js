@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
-import "./styles.css";
+import "./css/careers.css";
 
 export default function Page() {
   return(
