@@ -14,7 +14,8 @@ function Directions() {
           <Link to="/Main" style={{ background: '#691E06', color: 'white', marginLeft: '30px', border: 'none', textDecoration: 'none' }}>Home</Link>
           <Link to="/Menu" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Menu</Link>
           <Link to="/Careers" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Careers</Link>
-          <Link to="/ContactUs" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Ordering</Link>
+          <Link to="/OnlineOrder" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Ordering</Link>
+          <Link to="/ContactUs" style={{ background: '#691E06', color: 'white', marginLeft: '10px', border: 'none', textDecoration: 'none' }}>Contact</Link>
         </div>
       </div>
     </div>
